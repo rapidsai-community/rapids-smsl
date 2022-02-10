@@ -7,7 +7,7 @@ This repo helps a RAPIDS user quickly and easily
 1. Provide tips and tricks to help them have a great experience trying out RAPIDS on SageMaker
 
 ## Install RAPIDS on Sagemaker Studio Lab
-Our in depth install guide is [here, if you want to preview it](rapids-sagemaker/rapids-smsl.ipynb): 
+Our in depth install guide is [here, if you want to preview it](rapids-smsl.ipynb): 
 
 To run this guide, you only need two things:
 1. An active SageMaker Studio Lab account (get one here: https://studiolab.sagemaker.aws/)
@@ -18,7 +18,7 @@ When you have that ready, if you want to just install RAPIDS into SageMaker Stud
 2. Click the `Copy to Project` button
 3. When prompted, select `Clone Entire Repo`
 4. After customizing any directories, ensure that `Search for environment.yml and build Conda environment` is checked and click `Clone`
-5. Once completed, please go to **[Links to RAPIDS Notebooks and Repos](#Links-to-RAPIDS-Notebooks-and-Repos)** and get some Notebooks to run RAPIDS on!
+5. Once completed, please go to **[Links to RAPIDS Notebooks and Repos](rapids-smsl.ipynb#Links-to-RAPIDS-Notebooks-and-Repos)** and get some Notebooks to run RAPIDS on!
  
 ## Challenges?
 Please create an issue!
