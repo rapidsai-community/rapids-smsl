@@ -1,4 +1,4 @@
-# Welcome to RAPIDS-SageMaker
+# Welcome to the RAPIDS + SageMaker Studio Lab Quick Start Repo
 ---
 ## Purpose
 This repo helps a RAPIDS user quickly and easily 
@@ -6,8 +6,8 @@ This repo helps a RAPIDS user quickly and easily
 1. Get to notebooks and other repos that they can run and explore RAPIDS
 1. Provide tips and tricks to help them have a great experience trying out RAPIDS on SageMaker
 
-## Install RAPIDS on Sagemaker
-Our in depth install guide is [here, if you want to preview it](rapids-sagemaker/RAPIDS-SageMaker.ipynb): 
+## Install RAPIDS on Sagemaker Studio Lab
+Our in depth install guide is [here, if you want to preview it](rapids-sagemaker/rapids-smsl.ipynb): 
 
 To run this guide, you only need two things:
 1. An active SageMaker Studio Lab account (get one here: https://studiolab.sagemaker.aws/)
