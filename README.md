@@ -14,7 +14,7 @@ To run this guide, you only need two things:
 1. An actively running GPU instance in that account
 
 When you have that ready, if you want to just install RAPIDS into SageMaker Studio Lab, the easiest way is:
-1. Click this button [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://rapidsa.ai/smsl.html)
+1. Click this button [![Open in SageMaker Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)](https://rapids.ai/smsl.html)
 2. Click the `Copy to Project` button
 3. When prompted, select `Clone Entire Repo`
 4. After customizing any directories, ensure that `Search for environment.yml and build Conda environment` is checked and click `Clone`
