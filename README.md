@@ -24,6 +24,6 @@ When you have that ready, if you want to just install RAPIDS into SageMaker Stud
 Please create an issue!
 
 ### Known Issues
-1. `Libnuma` dependancy causes cuML and cugraph to fail import in RAPIDS 22.02 and possible 22.04
-  1. cuML user workaround: Uninstall ucx-py using conda in your RAPIDS 
-  2. cuGraph user workaround: Install RAPIDS 21.12 if you require cuGraph.  cuGraph will not work for RAPIDS versions 22.02 and possible 22.04  A fix will be introduced in 22.06. 
+1. `Libnuma` dependancy causes cuML and cuGraph to fail import in RAPIDS 22.02 and possibly 22.04 (https://github.com/rapidsai/ucx-py/issues/790) 
+   1. cuML user workaround: Uninstall `ucx-py` using conda in your RAPIDS (https://github.com/rapidsai/cuml/issues/4616)
+   2. cuGraph user workaround: Install RAPIDS 21.12 if you require cuGraph.  cuGraph will not work for RAPIDS versions 22.02 and possible 22.04  A fix will be introduced in 22.06. (https://github.com/rapidsai/cugraph/issues/2113)
