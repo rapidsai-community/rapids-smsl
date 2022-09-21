@@ -8,7 +8,7 @@ dependencies:
   - cudatoolkit=11.5
   - python=3.9
   - pip
-  - dask/label/dev_datafusion::dask-sql
+  - dask-sql
   - dask-ml
   - ipykernel
   - mamba
