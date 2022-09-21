@@ -12,6 +12,7 @@ dependencies:
   - ipykernel
   - mamba
   - pyngrok
+  - plotly
   - pip:
     - treelite-runtime==2.1.0
 prefix: /home/studio-lab-user/.conda/envs/rapids-22.08
