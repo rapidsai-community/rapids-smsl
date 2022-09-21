@@ -9,6 +9,7 @@ dependencies:
   - python=3.9
   - pip
   - dask/label/dev_datafusion::dask-sql
+  - dask-ml
   - ipykernel
   - mamba
   - s3fs
