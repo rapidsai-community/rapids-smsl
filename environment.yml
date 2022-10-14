@@ -1,10 +1,10 @@
-name: rapids-22.08
+name: rapids-22.10
 channels:
   - nvidia
   - rapidsai
   - conda-forge
 dependencies:
-  - rapids=22.08
+  - rapids=22.10
   - cudatoolkit=11.5
   - python=3.9
   - pip
@@ -17,4 +17,4 @@ dependencies:
   - plotly
   - pip:
     - treelite-runtime==2.1.0
-prefix: /home/studio-lab-user/.conda/envs/rapids-22.08
+prefix: /home/studio-lab-user/.conda/envs/rapids-22.10
