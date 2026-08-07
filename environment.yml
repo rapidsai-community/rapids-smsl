@@ -1,20 +1,19 @@
-name: rapids-22.08
+name: rapids-23.04
 channels:
   - nvidia
   - rapidsai
   - conda-forge
+  
+  
 dependencies:
-  - rapids=22.08
-  - cudatoolkit=11.5
-  - python=3.9
-  - pip
-  - dask-sql
-  - dask-ml
+  - python=3.10
   - ipykernel
-  - mamba
-  - s3fs
-  - pyngrok
-  - plotly
+  - pip
   - pip:
-    - treelite-runtime==2.1.0
-prefix: /home/studio-lab-user/.conda/envs/rapids-22.08
+    - --extra-index-url https://pypi.nvidia.com
+    - cudf-cu11
+    - cuml-cu11
+    - cugraph-cu11
+    - aiohttp
+    - cupy-cuda11x
+prefix: /home/studio-lab-user/.conda/envs/rapids-23.04
